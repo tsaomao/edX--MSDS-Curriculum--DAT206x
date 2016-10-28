@@ -23,5 +23,15 @@ Module 2 - The Excel Data Model and Basic DAX
 		
 	Lab: Module 2
 		File:	Lab 2 – The Excel Data Model.xlsx
-		URL: https://github.com/MicrosoftLearning/Analyzing-Visualizing-Data-Excel/raw/master/Module2/Lab_2_The_Excel_Data_Model.zip
+		URL: 	https://github.com/MicrosoftLearning/Analyzing-Visualizing-Data-Excel/raw/master/Module2/Lab_2_The_Excel_Data_Model.zip
+
+Module 3 - Importing Data from a CSV File
+	Lecture: Importing Data afrom a CSV File
+		File:	Module 3 - Onetable.csv
+		URL:	https://github.com/MicrosoftLearning/Analyzing-Visualizing-Data-Excel/raw/master/Module3/Module_3_onetable.zip
+		
+	Lab: Module 3
+		File:	“Lab 3 - Onetable - TXNY.csv”
+		URL:	https://github.com/MicrosoftLearning/Analyzing-Visualizing-Data-Excel/raw/master/Module3/Lab_3_Onetable_TXNY.zip
+		
 		

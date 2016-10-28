@@ -1,0 +1,15 @@
+edX - DAT206x - Module 2 - Lecture Notes
+- Importing Data from a CSV File
+
+- Power Query
+	- 2013 Add-in
+	- 2016 Built-in
+	- In future versions it will be the default method to import data (including CSV)
+- Importing
+	- Data -> Get and Transform -> New Query
+	- Query Editor:
+		- Enhance, Edit, Save, and later Load and reuse for another import
+		- Right-click to remove unneeded columns
+	- (Optional) Flash Fill
+		- For data copy/pasted from text/PDF sources and recovering columns, structure
+		
