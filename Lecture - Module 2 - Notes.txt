@@ -1,0 +1,3 @@
+edX - DAT206x - Module 2 - Lecture Notes
+- The Excel Data Model
+

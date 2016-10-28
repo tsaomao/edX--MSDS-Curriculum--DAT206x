@@ -1,0 +1,27 @@
+edX - DAT206x - Module 1 - Lecture Notes
+- Classic analysis demo
+	- Hidden tabs in xlsx demo show data that charts are based on
+	- Charts and pivots require all data to exist in single range, as
+	  opposed to pivoting across multiple sheets/ranges.
+	- In example spreadsheet, data broght to single range with VLOOKUP() formulas and references
+	- Demo uses [@Table] format to reference named Tables in Excel (newer feature)
+	- Limitations to classic Excel driven analysis:
+		- VLOOKUPs can get very slow. 
+		- VLOOKUPs are difficult to maintain/error prone.
+		- No good tools/operations to shape and clean data. Every option burdensome.
+			- Copy/paste
+			- Macros
+			- Typing
+		- Scale is poor
+			- Excel maxes out at 1,000,000 rows
+			- VLOOKUPs at that scale are extremely slow to recalculate
+		- Some modern data sources not accessible to native Excel
+	- New features:
+		- Pivot tables from multiple ranges
+		- Repeatable, button driven data cleaning processes
+		- Scale: 10s of millions of rows (with great performance)
+		- Create business logic
+		- Complex business logic in an extended language that still shares many characteristics
+		  of classic Excel syntax and behavior
+		- Data, language extensions, query language
+		
