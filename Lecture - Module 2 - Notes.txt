@@ -1,3 +1,53 @@
 edX - DAT206x - Module 2 - Lecture Notes
 - The Excel Data Model
 
+- Introducted in Excel 2010 as an add-on
+- Integrated into Excel 2013 and above
+- Demo
+	- Data in demo spreadsheet viewable under Data -> Manage Data Model
+	- Data View views as spreadsheet-like per table
+	- Diagram View views data-relation-oriented schema like a database diagram
+	- You can add calculated columns to Data Model with Excel Table syntax
+	- Added values for one row are calculated real time for entire table in data model
+	- If you add a Pivot Table to the workbook, Excel automatically selects the data model if populated
+	- Drill down in fields dialog with triangle control from list of tables to fields within
+	- Can select fields from different (related) tables
+	- Right click a field to create a slicer
+	
+- Basic DAX
+	- Some Pivot table setup operations are possible with the data model which are not possible with
+	  native/legacy Excel
+		- Example: 
+			- Drag customer Key from FactInternetSales to Values
+			- Change default SUM aggregation to Distinct Count (Under Value Field Settings in Right-Click
+			  Menu)
+			- Shows distinct customers for each combination
+			- This is not really possible to do with classic features
+			- Also note performance is VERY QUICK
+	- More Data Model Tweaks:
+		- Apply custom column format e.g. Currency
+		- Examine formula used for Revenue column created in previous demo
+			- Written in DAX language
+			- DAX (Data Analysis Expressions):
+				- Can be very sophisticated
+				- Can be used in Calculated Columns
+				- Can be used for Measures
+			- Measures:
+				- Measures are created in the rows in the data model below the Data
+				  (Where the totals would be in a Table in Excel)
+				- Syntax: Name:=Formula
+				- E.g.: TotalRev:=sum(FactInternetSales[Revenue])
+				- Can format a Measure to, e.g., a Currency
+				- These are explicit Meausres
+				- Examples of implicit Measures are aggregates created by selecting columns for the 
+				  Values in a Pivot
+				- Explicit Measures show up as fields in a Pivot's setup
+				- When they show up in a pivot chart, note that each measure is recalculated in the pivot
+				  with the right calculation context
+			- Calculated Columns:
+				- Do calculated columns have the same filter context? No.
+				- Calculated columns' DAX context are the rows they live in.
+					- They cannot know to what purposes they'll be put for the later Pivots
+				- Can use columns in the row
+				- Can also use columns in related tables (RELATED() function)
+				

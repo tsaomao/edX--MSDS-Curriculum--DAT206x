@@ -21,4 +21,7 @@ Module 2 - The Excel Data Model and Basic DAX
 	Lecture: Basic DAX
 		Same file as above
 		
-	
+	Lab: Module 2
+		File:	Lab 2 – The Excel Data Model.xlsx
+		URL: https://github.com/MicrosoftLearning/Analyzing-Visualizing-Data-Excel/raw/master/Module2/Lab_2_The_Excel_Data_Model.zip
+		
