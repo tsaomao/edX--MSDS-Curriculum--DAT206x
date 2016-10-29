@@ -1,0 +1,26 @@
+edX - DAT206x - Module 4 - Lecture Notes
+- More Importing
+
+- Importing Data from a Database
+	- Use credentials from Windows or type in SQL database user credentials
+	- After negotiating authentication, move on to view databases and table the credentials have access to, and import to PowerQuery
+	- In PowerQuery, you want to interrelate different tables. To do that in PQ, create unique identifiers by merging uniquely
+	  identifying information in two related tables, e.g. Country and Zipcode
+	- In PQ, you can also apply filters to typed data, e.g. a date filter to accept only data with dates after a certain date
+	- Import first, then go into data model to establish relationships
+	- In Data Model, view in Diagram view, and click and drag to create relationships between identity fields
+- PowerQuery/Data Model
+	- You can create a Date Table within PowerQuery in Excel 2016 (e.g. a Calendar table)
+		- Design Ribbon -> Calendars chunk -> Date Table
+	- In prior versions, you can create a table within Excel and then import into the Data Model
+	- Be sure to check relationships after creating the new table
+- Import folder of CSVs
+	- Imports as single table
+	- Still requires cleanup
+	- Define foreign key (e.g. Location = Merge of Country and Postal Code)
+	- Load to Connection but not to Data Model
+	- Append Query in PowerQuery used to import the CSVs at the end of the rest of the Sales table already imported from the Database
+	- Can wipe out existing table relationships in Data Model
+		- Autodetect relationships can restore these relationships
+		- May get phased out of future Excel verions
+	

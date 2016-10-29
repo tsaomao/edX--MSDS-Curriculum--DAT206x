@@ -34,4 +34,10 @@ Module 3 - Importing Data from a CSV File
 		File:	“Lab 3 - Onetable - TXNY.csv”
 		URL:	https://github.com/MicrosoftLearning/Analyzing-Visualizing-Data-Excel/raw/master/Module3/Lab_3_Onetable_TXNY.zip
 		
+Module 4 - Importing Data from a Database
+	Lecture: Importing Data from a Database
+		NO FILE - follow along with video
 		
+	Lab: Module 4
+		File:	International Sales Data
+		URL:	https://github.com/MicrosoftLearning/Analyzing-Visualizing-Data-Excel/raw/master/Module4/Lab_4_International_Sales.zip

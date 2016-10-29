@@ -1,4 +1,4 @@
-edX - DAT206x - Module 2 - Lecture Notes
+edX - DAT206x - Module 3 - Lecture Notes
 - Importing Data from a CSV File
 
 - Power Query
