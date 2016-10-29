@@ -1,0 +1,36 @@
+edX - DAT206x - Module 5 - Lecture Notes
+- Measures and Advanced DAX
+
+Additional information:
+	DAX:
+	- SUMX: https://support.office.com/en-us/article/SUMX-Function-DAX-9ca68d1f-34cd-4a98-bc5c-36646118811a?ui=en-US&rs=en-US&ad=US.
+	- CALCULATE: https://support.office.com/en-us/article/CALCULATE-Function-DAX-19654BC2-AA88-4F6C-A0B9-6FA7A59C4432.
+	- DIVIDE: https://support.office.com/en-us/article/DIVIDE-Function-DAX-515D058C-7160-49D2-B066-E220C2577D91.
+
+- Creating and Formatting Measures
+	- Measures can be created in Data Model
+	- Measures can also be created from a Pivot Chart (will show later)
+	- SUMX is a DAX function that can do the Revenue generation and Sum all at once
+		- First argument is table name
+		- Second is operation/expression
+	- In the Pivot Chart's field display, you can right-click and edit or delete the measure
+	- You can also right-click a Table and add a measure
+	- CALCULATE:
+		- Mother of all functions in DAX
+	- ALL:
+		- Can bypass context and provide the sum of all rows even in a row/slicer/field context within a pivot or formula
+		  for specified fields in CALCULATE call
+		- Other fields (not specified) can still affect the Measure's context
+	- Using example ALL calculation in other formulas, not necc'ly in the Pivot, but can add to the pivot to make sure it
+	  is actually defying the context.
+	- Math:
+		- Better to use DAX function DIVIDE than / operator.
+			- DIVIDE() is divide-by-zero safe
+
+- Advanced DAX
+	- Make business logic using DAX
+	- Chart in lecture spreadsheet:
+		- Left chart not connected to slicer
+			- Will connect/demo later
+		- Left chart +/- will drill down into monthwise data
+	

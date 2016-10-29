@@ -41,3 +41,16 @@ Module 4 - Importing Data from a Database
 	Lab: Module 4
 		File:	International Sales Data
 		URL:	https://github.com/MicrosoftLearning/Analyzing-Visualizing-Data-Excel/raw/master/Module4/Lab_4_International_Sales.zip
+
+Module 5 - Measures and Advanced DAX
+	Lecture: The Excel Data Model
+		USE THE SAME FILE FROM MODULE 2 Lecture
+	
+	Lecture: Advanced DAX
+		File: 	Module 4-8 - multitable model.xlsx
+		URL: 	https://github.com/MicrosoftLearning/Analyzing-Visualizing-Data-Excel/raw/master/Module4/Module_4-8_multitable_model.zip
+		
+	Lab: Module 5
+		File:	Lab 5 - Model.xlsx
+		URL:	https://github.com/MicrosoftLearning/Analyzing-Visualizing-Data-Excel/raw/master/Module5/Lab_5_Model.zip
+		
