@@ -54,3 +54,17 @@ Module 5 - Measures and Advanced DAX
 		File:	Lab 5 - Model.xlsx
 		URL:	https://github.com/MicrosoftLearning/Analyzing-Visualizing-Data-Excel/raw/master/Module5/Lab_5_Model.zip
 		
+Module 6 - Importing Data from a Formatted Excel Report
+	Lecture: Importing Data
+		NO FILE PROVIDED
+	
+	Lab: Module 6
+		Note:	Import this file/report to a new workbook
+		File:	Lab 6 – Industry Report.xlsx
+		URL:	https://github.com/MicrosoftLearning/Analyzing-Visualizing-Data-Excel/raw/master/Module6/Lab_6_Industry_Report.zip
+		
+Module 7 - Visualizing Data in Excel
+	Lecture: Visualizing Data
+		File: USE THE SAME FILE FROM MODULE 5 Advanced DAX LECTURE
+		
+	

@@ -1,0 +1,17 @@
+edX - DAT206x - Module 6 - Lecture Notes
+- Importing Data from a Formatted Excel Report
+
+Additional information:
+	- More on using Query:
+	  https://support.office.com/en-us/article/Shape-data-Power-Query-9b2dac2b-e13d-46a4-8940-7bc55f44597d?ui=en-US&rs=en-US&ad=US
+
+- 	Importing Data from a Formatted Excel Report
+	- Remove rows to remove headers
+		- Use rowwise operations
+		- Use Text filters
+		- Undo
+	- Add data to help filter
+		- Use Fill
+	- Use Unpivot to collecting headers into data rows
+	- Use trial and error to condition incoming tabular data from pivot output and bring it back to useful data for other pivots and charts
+	
