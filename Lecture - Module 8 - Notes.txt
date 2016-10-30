@@ -1,0 +1,16 @@
+edX - DAT206x - Module 8 - Lecture Notes
+- Using Excel with Power BI
+
+Additional information:
+	- Power BI Course is DAT207x available on edX.
+	- To learn more about Excel and Power BI, check out the following resource: 
+		https://support.powerbi.com/knowledgebase/articles/703422-import-excel-workbooks-into-power-bi-desktop
+	- To learn more about Power BI Q&A Natural Language, check out the following resource:
+		https://support.powerbi.com/knowledgebase/articles/474566-q-a-in-power-bi
+
+		
+- 	
+		
+
+		
+		

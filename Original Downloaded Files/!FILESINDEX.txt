@@ -67,4 +67,11 @@ Module 7 - Visualizing Data in Excel
 	Lecture: Visualizing Data
 		File: USE THE SAME FILE FROM MODULE 5 Advanced DAX LECTURE
 		
+	Lab: Module 7
+		File:	Lab 7 – Model.xlsx
+		URL:	https://github.com/MicrosoftLearning/Analyzing-Visualizing-Data-Excel/raw/master/Module7/Lab_7_Model.zip
+		
+Module 8 - Using Excel with Power BI
+	Lecture: Using Excel with Power BI
+		File: USE THE SAME FILE FROM MODULE 5 Advanced DAX LECTURE
 	

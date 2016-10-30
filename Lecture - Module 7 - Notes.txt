@@ -5,4 +5,54 @@ Additional information:
 	- More on hierarchies in the Excel Data Model:
 		https://support.office.com/en-us/article/Hierarchies-in-Power-Pivot-002cf883-3b5f-497c-bfa1-ab2271cdb73b
 
-- 	
+- 	Visualizing
+	- Can create Pivot Charts without Pivot Tables (new feature 2013)
+	- For visual cleanliness, consider turning off spreadsheet features like gridlines in dashboards
+	- Also consider hiding tables so they don't clutter the Pivot field selection window
+	- 
+	
+- Slicers
+	- If you create a slicer in one pivotchart, you have to go to options for slicer, then Report Connections and 
+	  then select other charts if you want to tie it to other charts
+		- Argues for naming charts so you can see non-default names in this selector
+	- May show more options than there is data (greyed out) but you can also hide these excess options
+	- Can be connected to Pivot Charts and Pivot Tables on other worksheets
+	
+	
+- Data hierarchies
+	- Can be defined in Data Model
+	- Hierarchy:
+		- Collection of fields (e.g. Year, Month, Day) that go together
+	- If there's a specific drilldown path for any task or analysis that is repetitive, consider a hierarchy
+	
+- Customizing Pivot Tables
+	- Connect existing slicer to Pivot Table:
+		- Either
+			- Edit Connections in Slicer options
+			OR
+			- In Analyze button for Table, use Filter Connections
+	
+- Cube Functions
+	- Create Pivot Table
+	- From Analyze ribbon within Pivot Table, in Calculation chunk, use OLAP Tools -> Convert to Formulas
+		- This changes the Pivot Table so that each cell is now a cube function
+		- Slicer is still connected to these formulas
+	- CUBESET function starts with Connection
+		- Then you can drill down through data model with autofill
+		- .children function can be inserted manually 
+			- This is an MDX function
+				- MDX is the syntax/language of OLAP data cubes
+		- Cell with CUBESET function now contains data which you can reference with CUBERANKEDMEMBER and CUBEMEMBER functions
+		- CUBEVALUE can reference context values (you specify cell locations) and slicers (by name)
+		- Far more flexible in terms of cell locations and narrowed behavior than Pivot Tables
+		- You should understand MDX to help understand how this feature set works
+		- Also can integrate data from multiple tables into a single report
+		
+Cube-based charting:
+	- Treemap and Sunburst charts available only in 2016
+	- Show results based on area/value
+	
+		
+
+		
+		
