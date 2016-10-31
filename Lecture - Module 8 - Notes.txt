@@ -7,10 +7,32 @@ Additional information:
 		https://support.powerbi.com/knowledgebase/articles/703422-import-excel-workbooks-into-power-bi-desktop
 	- To learn more about Power BI Q&A Natural Language, check out the following resource:
 		https://support.powerbi.com/knowledgebase/articles/474566-q-a-in-power-bi
+	- For more information about Power BI mobile apps, check out the following resource:
+		https://support.powerbi.com/knowledgebase/articles/725667-what-s-new-in-the-mobile-apps-for-power-bi
+		
+- 	Power BI is a cloud based analytical service provided by Microsoft
+	- Excel is one of the options to create content that Power BI consumes/presents
+	- Use Power Query and DAX to build content for this service
+	- Power BI is a freemium service
+	- This demo focuses on using Excel with Power BI, but there are many other ways to do it
+	- Many data sources available
+	- Dany uploaded Excel spreadsheet simply for the included, populated data model
+	- Dashboard made of many tiles
+		- Click on a tile and it takes you to the data from which the tile visualization is created
+		- Slicers can affect multiple charts
+		- Dashboard owners can edit dashboards, tiles, charts
+		- Clicking on certain chart value elements can affect (with visual overlays and highlights) other charts and visualizations
+	- As/After uploading from various sources, you can use as a datasource
+		- or use as Excel
+		- Or schedule a refresh
+		- Or open
+			- Interact with it in Excel online
+	- Can also publish to Power BI from within Excel
+	- Can ask questions about the data
+		- English query e.g.
+			Ourshare by year and country
+			- Will create visualizations on the fly
 
-		
-- 	
-		
 
 		
 		
